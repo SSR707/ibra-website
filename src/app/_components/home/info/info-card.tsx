@@ -8,8 +8,10 @@ export const InfoCard = () => {
       </h2>
 
       <div
-        className={`px-[15px] py-[10px] md:w-[300px] rounded-2xl bg-[#000] flex gap-2 md:gap-2.5 items-center border-1 border-gray-300 mr-auto ml-auto shadow-2xl motion-safe:animate-[bounce_1.5s_infinite]
-           hover:shadow-[0_25px_50px_-12px_rgba(255,255,255,0.50)] hover:scale-105 transition-all duration-300`}
+        className={`px-[15px] py-[10px] md:w-[300px] rounded-2xl bg-[#000] flex gap-2 md:gap-2.5 items-center border-1
+          shadow-[0px_0px_20px_1px_rgba(255,255,255,0.263)]
+           border-gray-300 mr-auto ml-auto motion-safe:animate-[bounce_1.5s_infinite]
+           hover:shadow-[0px_0px_10px_2px_rgba(255,255,255,0.50)] hover:scale-105 transition-all duration-400`}
       >
         <div className="w-2 h-2 bg-white rounded-full animate-ping"></div>
         <span className="text-gray-400 font-bold text-[14px]">New EP</span>{" "}

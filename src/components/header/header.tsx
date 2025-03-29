@@ -6,7 +6,7 @@ const Header = () => {
       <div className="container">
         <div className="flex  justify-between py-[20px] items-center ">
           {" "}
-          <h2 className="font-black text-[30px] text-transparent bg-clip-text bg-[url('/img/background.gif')] bg-cover bg-center">
+          <h2 className="font-black text-[30px] text-transparent bg-clip-text bg-[url('/img/background.gif')] bg-cover bg-center drop-shadow-[0px_2px_2px_rgba(255,255,255,0.2)]">
             IBRA ONE LOVE
           </h2>
           <div className="w-[22px] h-[22px] lg:hidden">
