@@ -7,7 +7,7 @@ export const InfoCard = () => {
       </h2>
 
       <div
-        className={`px-[13px] py-[10px] md:w-[320px] rounded-2xl bg-[#000] flex gap-[5px] md:gap-2.5 items-center border-1
+        className={`px-[15px] py-[10px] md:w-[325px] rounded-2xl bg-[#000] flex justify-between  md:gap-2.5 items-center border-1
           shadow-[0px_0px_20px_1px_rgba(255,255,255,0.263)]
            border-gray-300 mr-auto ml-auto motion-safe:animate-[bounce_1.5s_infinite]
            hover:shadow-[0px_0px_10px_2px_rgba(255,255,255,0.50)] hover:scale-105 transition-all duration-400`}
