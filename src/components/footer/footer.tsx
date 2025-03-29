@@ -5,7 +5,7 @@ import YandexIcon from "../../../public/svg/yandex.svg";
 import AppleMusiccon from "../../../public/svg/apple-music.svg";
 const Footer = () => {
   return (
-    <footer className="pt-[30px] pb-[5px]  shadow-[0px_0px_10px_3px_rgba(255,255,255,0.5)]">
+    <footer className="pt-[30px] pb-[5px] bg-foreground shadow-[0px_0px_10px_3px_rgba(255,255,255,0.5)]">
       <div className="container">
         <div className="flex flex-col items-center gap-[20px]">
           <div className="flex gap-[15px]">
