@@ -13,7 +13,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="pt-[50px]">
+      <section className="py-[50px] ">
         <div className="container">
           <div className=" flex flex-col items-center">
             <div className="text-center w-full lg:w-[60%] rounded-[15px] shadow-[0px_0px_20px_2px_rgba(255,255,255,0.263)] hover:hover:shadow-[0px_0px_10px_2px_rgba(255,255,255,0.50)] hover:scale-105 transition-all duration-600">

@@ -14,7 +14,7 @@ export const InfoCard = () => {
       >
         <div className="w-2 h-2 bg-white rounded-full shadow-[0px_0px_10px_2px_rgba(255,255,255,0.50)] animate-pulse"></div>
         <span className="text-gray-400 font-bold text-[14px]">New EP</span>{" "}
-        <span className="text-[#fff] font-bold drop-shadow-[0px_0px_4.2px_rgba(255,255,255,0.263)]  text-[14px]">
+        <span className="text-[#fff] font-bold drop-shadow-[0px_0px_4.2px_rgba(255,255,255,0.263)] animate-pulse  text-[14px]">
           "KOZLARIM"
         </span>
         <span className="text-gray-500 font-bold text-[13px]">Coming Soon</span>
