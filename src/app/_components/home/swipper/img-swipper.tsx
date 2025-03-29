@@ -26,7 +26,7 @@ export default function ImgCardSwipper() {
   return (
     <>
       <Swiper
-        className="mySwiper lg:w-[400px] lg:m-0"
+        className="mySwiper lg:w-[400px] lg:m-0 h-[440px]  md:h-[600px]"
         spaceBetween={0}
         loop={true}
         autoplay={{
