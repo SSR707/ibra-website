@@ -12,12 +12,6 @@ export const HeaderMenu = () => {
       >
         <img className="w-full h-full object-cover" src={NavImg.src} alt="" />
       </button>
-
-      {/* {isOpen && (
-        <div className=" top-[80px] bg-foreground left-0  absolute w-full h-50 text-center  ">
-          <HeaderNav open={isOpen} />
-        </div>
-      )} */}
       <div
         className={`absolute top-[80px] left-0 w-full bg-foreground text-center shadow-md pb-4 transition-all duration-300 ease-in-out
         ${
