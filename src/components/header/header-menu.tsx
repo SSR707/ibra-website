@@ -34,7 +34,7 @@ export const HeaderMenu = () => {
             : "translate-y-[-20px] h-0 invisible ease-in"
         }`}
       >
-        <HeaderNav open={isOpen} />
+        <HeaderNav open={isOpen} close={() => setIsOpen(false)} />
       </div>
     </div>
   );
