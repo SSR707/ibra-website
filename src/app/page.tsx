@@ -17,7 +17,7 @@ export default function Home() {
         <div className="container">
           <div className=" flex flex-col items-center">
             <div className="text-center w-full lg:w-[60%] pt-[8px] rounded-[15px] shadow-[0px_0px_20px_2px_rgba(255,255,255,0.263)] hover:hover:shadow-[0px_0px_10px_2px_rgba(255,255,255,0.50)] hover:scale-105 transition-all duration-600">
-              <h2 className="font-bold text-[36px] text-gray-300 drop-shadow-[0px_0px_4.2px_rgba(255,255,255,0.263)] mb-[5px] md:mb-[10px]">
+              <h2 className="font-bold text-[36px] text-gray-300 drop-shadow-[0px_0px_4.2px_rgba(255,255,255,0.263)] mb-[10px]">
                 Latest Release
               </h2>
               <div className="border-2 w-full h-50 lg:h-[350px] rounded-[15px] bg-cover bg-center">
