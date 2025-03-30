@@ -34,6 +34,7 @@ export default function ImgCardSwipper() {
           disableOnInteraction: false,
         }}
         modules={[Autoplay]}
+        autoHeight={false}
       >
         {data.map((item) => (
           <SwiperSlide key={item.id}>
