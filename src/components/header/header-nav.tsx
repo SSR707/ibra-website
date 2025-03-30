@@ -7,9 +7,7 @@ export const HeaderNav = ({ open }: { open?: boolean }) => {
   return (
     <nav
       className={` lg:flex lg:gap-18 ${
-        open
-          ? `flex flex-col gap-[10px] items-center transition-all duration-500 ease-in-out `
-          : " hidden"
+        open ? `flex flex-col gap-[10px] items-center ` : " hidden"
       }`}
     >
       {["Music", "Tour", "Videos", "Merch"].map((item) => (
