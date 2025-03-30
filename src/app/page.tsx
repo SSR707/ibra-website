@@ -4,7 +4,7 @@ import { InfoCard } from "./_components/home/info/info-card";
 export default function Home() {
   return (
     <main>
-      <section className="lg:pt-[60px] pt-[30px] pb-[10px] relative w-full h-screen bg-[url('/img/ibra-compress.gif')] bg-cover bg-center ">
+      <section className="lg:pt-[60px] pt-[30px] pb-[10px] relative w-full min-h-screen bg-[url('/img/ibra-compress.gif')] bg-cover bg-center ">
         <div className="absolute inset-0 backdrop-blur-lg"></div>
         <div className="relative z-10 container">
           <div className=" lg:flex lg:items-center lg:justify-between ">
