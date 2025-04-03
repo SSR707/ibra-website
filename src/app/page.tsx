@@ -1,5 +1,6 @@
 import ImgCardSwipper from "./_components/home/swipper/img-swipper";
 import { InfoCard } from "./_components/home/info/info-card";
+import { MusicCard } from "./_components/music/music-card";
 
 export default function Home() {
   return (
@@ -16,7 +17,7 @@ export default function Home() {
       <section className="py-[50px] ">
         <div className="container">
           <div className=" flex flex-col items-center">
-            <div className="text-center w-full lg:w-[60%] pt-[8px] rounded-[15px] shadow-[0px_0px_20px_2px_rgba(255,255,255,0.263)] hover:hover:shadow-[0px_0px_10px_2px_rgba(255,255,255,0.50)] hover:scale-105 transition-all duration-600">
+            {/* <div className="text-center w-full lg:w-[60%] pt-[8px] rounded-[15px] shadow-[0px_0px_20px_2px_rgba(255,255,255,0.263)] hover:hover:shadow-[0px_0px_10px_2px_rgba(255,255,255,0.50)] hover:scale-105 transition-all duration-600">
               <h2 className="font-bold text-[36px] text-gray-300 drop-shadow-[0px_0px_4.2px_rgba(255,255,255,0.263)] mb-[10px]">
                 Latest Release
               </h2>
@@ -29,6 +30,15 @@ export default function Home() {
                   allowFullScreen
                 ></iframe>
               </div>
+            </div> */}
+            <h2 className="font-bold text-[36px] text-gray-300 drop-shadow-[0px_0px_4.2px_rgba(255,255,255,0.263)] mb-[10px]">
+              Top Music
+            </h2>
+            <div className="grid grid-cols-1 w-full gap-y-[30px] sm:grid-cols-2 sm:gap-x-[30px]  xl:md:grid-cols-4 mt-[20px]">
+              <MusicCard />
+              <MusicCard />
+              <MusicCard />
+              <MusicCard />
             </div>
           </div>
         </div>

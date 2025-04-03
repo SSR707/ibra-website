@@ -58,7 +58,7 @@ const Footer = () => {
               </a>
             </div>
           </div>
-          <p className="font-medium text-gray-300 drop-shadow-[0px_0px_4.2px_rgba(255,255,255,0.263)]  ">
+          <p className="font-medium text-[12px] text-gray-400 drop-shadow-[0px_0px_4.2px_rgba(255,255,255,0.263)]  ">
             2025-IBRAONELOVE
           </p>
         </div>
