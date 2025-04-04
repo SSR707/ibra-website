@@ -12,7 +12,7 @@ export const MusicCard = () => {
         KOZLARIM
       </h3>
       <button
-        className="py-[12px] px-[24px] bg-amber-300 text-[#fff] font-bold text-[16px] border-none rounded-[4px] cursor-pointer transition-all hover:scale-108 hover:duration-600 mt-[5px]"
+        className="py-[12px] px-[24px] l:py-[16px] lg:px-[28px] bg-amber-300 text-[#fff] font-bold text-[16px] border-none rounded-[4px] cursor-pointer transition-all hover:scale-105 hover:duration-600 mt-[5px]"
         type="button"
       >
         Listen now
